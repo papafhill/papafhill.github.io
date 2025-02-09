@@ -5,6 +5,16 @@ author:
   name: Philip Wahl
   email: wahl.philip@outlook.com
 description: "Taking a critical look at vulnerabilities, trends, and reviewing tools to help unearth them!"
+theme: minima
+
+# Navigation Menu
+nav:
+  - title: "Home"
+    url: "/"
+  - title: "About"
+    url: "/about/"
+  - title: "Tools"
+    url: "/tools/"
 
 # Build settings
-remote_theme: pages-themes/hacker@v0.2.0
+#remote_theme: pages-themes/hacker@v0.2.0
