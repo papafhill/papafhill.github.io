@@ -1,3 +1,9 @@
+---
+layout: default
+title: About
+permalink: /about/
+---
+
 # This is my bio!
 
 This is all about me here.  I'm Phil, and I like nerdy things!
