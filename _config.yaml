@@ -1,0 +1,9 @@
+# Site settings
+title: Critter Review
+author:
+  name: Philip Wahl
+  email: your-email@domain.com
+description: "Taking a critical look at vulnerabilities and trends, and reviewing tools to help unearth them!"
+
+# Build settings
+remote_theme: jekyll/minima
