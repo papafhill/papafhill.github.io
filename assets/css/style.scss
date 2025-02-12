@@ -11,11 +11,11 @@
 
 /* Sidebar Navigation (below the header) */
 .sidebar {
-    width: 250px;
+    width: 200px;
     background: #1e1e1e;
     color: #fff;
     position: fixed;
-    top: 250px; /* Adjust this based on your header height */
+    top: 210px; /* Adjust this based on your header height */
     left: 0;
     height: calc(100vh - 80px); /* Ensures it doesn't overlap the header */
     padding: 20px;
@@ -59,7 +59,7 @@ header {
     position: fixed;
     top: 0;
     left: 0;
-    /*background: #fff; /* Adjust background color */
+    background: #fff; /* Adjust background color */
     z-index: 1000;
     padding: 15px 0;
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
@@ -67,5 +67,5 @@ header {
 
 /* Adjust body padding so content isn't hidden behind fixed header */
 body {
-    padding-top: 80px; /* Adjust this to match the header height */
+    padding-top: 210px; /* Adjust this to match the header height */
 }
