@@ -1,0 +1,71 @@
+---
+---
+
+@import 'jekyll-theme-hacker';
+
+/* Layout container (flexbox for sidebar & content) */
+.layout-container {
+    display: flex;
+    min-height: 100vh; /* Ensures full height */
+}
+
+/* Sidebar Navigation (below the header) */
+.sidebar {
+    width: 250px;
+    background: #1e1e1e;
+    color: #fff;
+    position: fixed;
+    top: 80px; /* Adjust this based on your header height */
+    left: 0;
+    height: calc(100vh - 80px); /* Ensures it doesn't overlap the header */
+    padding: 20px;
+    overflow-y: auto;
+    box-shadow: 2px 0 5px rgba(0, 0, 0, 0.3);
+}
+
+/* Sidebar Menu Items */
+.sidebar ul {
+    list-style: none;
+    padding: 0;
+}
+
+.sidebar ul li {
+    margin-bottom: 15px;
+}
+
+.sidebar ul li a {
+    color: #00d9ff;
+    text-decoration: none;
+    font-weight: bold;
+    display: block;
+    padding: 10px;
+    transition: 0.3s;
+}
+
+.sidebar ul li a:hover {
+    background: rgba(255, 255, 255, 0.1);
+}
+
+/* Content area */
+.content-container {
+    flex: 1;
+    margin-left: 250px; /* Same width as sidebar */
+    padding: 20px;
+}
+
+/* Ensure header remains at the top */
+header {
+    width: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    background: #fff; /* Adjust background color */
+    z-index: 1000;
+    padding: 15px 0;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+}
+
+/* Adjust body padding so content isn't hidden behind fixed header */
+body {
+    padding-top: 80px; /* Adjust this to match the header height */
+}
