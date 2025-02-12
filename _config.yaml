@@ -1,6 +1,6 @@
 # Site settings
 title: Critter Review
-logo: /assets/images/logo3.png
+# logo: /assets/images/logo3.png - Not sure I want an image
 author:
   name: Philip Wahl
   email: wahl.philip@outlook.com
