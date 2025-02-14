@@ -62,7 +62,7 @@ Infinity
 
 The first list found some more 500's, but for the most part the application just removed the entire payload.  The second list, and some of the first list, showed that it was looking purely for an integer value.  It had to be non-negative (so -50 gave a server error), and it cut decimal places (no rounding, just straight cut).
 
-I might have ended up getting silly with some manual testing of special characters and some basic payloads, like {{7*7}} just to see what happens but it ignored anything within any type of brackets.
+I might have ended up getting silly with some manual testing of special characters and some basic payloads, like `{{7*7}}` just to see what happens but it ignored anything within any type of brackets.
 
 That's the excitement of about 20 minutes at the end of my work day.  The thing I'm going to go back to this and try is DOM XSS.  The fact this dynamically writes to the document and lives in the href element of and `a` tag gives me some hope it might be `dangerouslySetInnerHTML` at play.  Even with my fuzzing pointing to any non-numeric characters are sanitized, there might be a way to bypass I'm not considering...
 
