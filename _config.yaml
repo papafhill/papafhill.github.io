@@ -10,10 +10,12 @@ description: "Taking a critical look at vulnerabilities, trends, and reviewing t
 nav:
   - title: "Home"
     url: "/"
-  - title: "About"
-    url: "/about/"
+  - title: "Vuln Trends"
+    url: "/trends/"
   - title: "Tools"
     url: "/tools/"
+  - title: "About"
+    url: "/about/"
 
 # Build settings
 remote_theme: pages-themes/hacker@v0.2.0
