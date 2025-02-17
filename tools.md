@@ -19,6 +19,12 @@ As I review tools I'll be posting my take here!
 # My Arsenal
 
 OS: Kali Linux
+
 Proxy: Burp
+
 Favorite Podcast: Critical Thinking Bug Bounty Podcast
-Discords: [NahamSec](https://discord.gg/nahamsec-598608711186907146), [Critical Thinking](https://discord.gg/QYDyC879cu), [David Bombal](https://discord.gg/davidbombal)
+
+Discords:
++ [NahamSec](https://discord.gg/nahamsec-598608711186907146), 
++ [Critical Thinking](https://discord.gg/QYDyC879cu), 
++ [David Bombal](https://discord.gg/davidbombal)
