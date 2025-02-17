@@ -3,7 +3,7 @@ layout: post
 title: "Web Cache Deception: Vuln Trend Analysis"
 description: "Vulnerability Trend Analysis - Web Cache Deception"
 date: 2025-02-14
-categories: tools
+categories: trends
 permalink: /trends/WebCacheDeception/
 ---
 # UNDER CONSTRUCTION
