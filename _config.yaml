@@ -2,7 +2,7 @@
 title: Critter Review
 # logo: /assets/images/logo3.png - Not sure I want an image
 author:
-  name: ""
+  name: "Philip Wahl"
   email: ""
 description: "Taking a critical look at vulnerabilities, trends, and reviewing tools to help unearth them!"
 
@@ -16,6 +16,10 @@ nav:
     url: "/tools/"
   - title: "About"
     url: "/about/"
+
+# SEO
+seo:
+  author: false
 
 collections:
   trends:
