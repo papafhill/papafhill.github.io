@@ -56,30 +56,38 @@ Disclaimer: this is purely a guess, I have no numbers to back this up on.  The l
 1. Broken Access Control (w/ SSRF Added)
 
   If SSRF is added to this category, I can't imagine it losing its footing at the number one spot. Access to privileged data and functionality is critical, and any application with privileges (which every application has an owner/admin) is potentially vulnerable to this. There is also a tedium to testing Access Controls that makes it hard to automate.
+  
 2. Cryptographic Failures
 
   This is still a main focus for a lot of hunters.  The question of how a key or secret is generated and whether the algorithms used to encrypt or the encoding process can be deciphered is something that remains largely in the minds of the attackers.  If implemented poorly this is more security by obscurity and seasoned threat actors and researchers can see through that.
+  
 3. Security Misconfiguration
 
   
 4. Insecure Design
 
   As secure frameworks are more ubiquitous and 
+  
 5. Injection
 
   This category isn't getting any lovin', down two spots from 2021.  This is due in large part from all the frameworks and coding standards, the automated tools and AI monitoring systems, and the improvement of WAFs and CSPs helping to keep the client and server safe.  However, this remains the starting point for bug bounty hunters and a lot of notable hunters advise learning these vulnerabilities early and get a large volume of bugs that fall into this category.  I'd guess over 20% of all bugs reported fall into Injection attacks.
+  
 6. Vulnerable and Outdated Components
 
-  Holding fast to the sixth spot, 
+  Holding fast to the sixth spot, ...
+  
 7. Software and Data Integrity Failures
 
   I feel silly not bumping this higher up the list after the disastrous CrowdStrike error, which is estimated to have cost more than $5 billion from Fortune 500 companies alone.  
+  
 8. Identification and Authentication Failures
 
   I can imagine this sliding down, having drop fived spots from 2017 to 2021.  This trend of improved framework standardization will likely 
+  
 9. Leaving For Community Survey
 
   OWASP has shown it is sensitive to community perspective.  There may be something in the industry that is on everyone's mind that will make an appearance.  I'm surely hoping so!
+  
 10. Security Logging and Monitoring Failures
 
   AI is helping to empower monitoring and logging efforts.  Being that this category is more subjective and was added in 2017 and 2021 because the community surveyed insisted this was an issue.  
