@@ -1,9 +1,9 @@
 ---
-layout: post
+layout: default
 title: "Web Cache Deception: Vuln Trend Analysis"
 description: "Vulnerability Trend Analysis - Web Cache Deception"
 date: 2025-02-14
-categories: trends
+categories: tools
 permalink: /trends/WebCacheDeception/
 ---
 # UNDER CONSTRUCTION
@@ -25,11 +25,12 @@ To draw a breif connection in caching behavior; ISP DNS servers like to cache DN
 
 ## Examples in Action
 
-
+`example.com/api/v1/auth/session`
+`example.com/api/v1/auth/session/cacheit.js`
 
 ## Impact
 
-Web cache deception can lead to Account Takeover and/or leaking of PII, PHI, or other sensitive data.  That said, the attack still requires user interaction, and the Scope is almost always Unchanged.  This puts web cache deception at a solid 8.8 - High on the CVSS scoring system.
+Web cache deception on its own can lead to Account Takeover and/or leaking of PII, PHI, or other sensitive data.  That said, the attack still requires user interaction, and the Scope is almost always Unchanged.  This puts web cache deception at a solid 6.5 - Medium on the [CVSS scoring system](https://www.first.org/cvss/calculator/3.0#CVSS:3.0/AV:N/AC:L/PR:N/UI:R/S:U/C:H/I:N/A:N).
 
 The highest impact on record was a Critical reported by Spaceraccoon, AKA Eugene Lim, that was a vulnerability found on Shopify.  The payout was a whopping $40,000 for this find and is the highest disclosed web cache deception bounty to date.
 
@@ -45,15 +46,16 @@ It doesn't feel like this is a trend, at least for smaller corporations that don
 
 My conclusion: Web cache deception is a worth while vulnerability to consider from a security perspective depending on cache behavior on your applications and the data being stored/served.  This is especially true for large corporations with massive attack surface, as breaches of this nature could have severe concequences and the likelihood of using CDNs to cache data is all but garaunteed.
 
+## Mitigation
+
+MITIGATION ADVICE HERE
+
 ### Learning Material
 Disclosed Reports:
-+ 
-+ 
++ [GitHub Repo of Disclosed Reports - Web Cache Specific](https://github.com/reddelexc/hackerone-reports/blob/master/tops_by_bug_type/TOPWEBCACHE.md)
 
-Bounty Hunter Information
-+ 
+Bounty Hunter Perspectives
 + [NahamSec's Blog](https://www.nahamsec.com/posts/high-value-web-security-vulnerabilities-to-learn-in-2025) - Web Cache Deception: A Growing Threat
-
 
 Labs
 + [Portswigger - Web Security Academy](https://portswigger.net/web-security/web-cache-deception)
