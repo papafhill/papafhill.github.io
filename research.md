@@ -19,24 +19,25 @@ I will cover the following in each post:
 + Fuzzing
 
 ## Vulnerability Research Pages
-Broken Access Controls (BAC) - Coming soon
-Client-Side Request Forgery (CSRF) - Coming soon
-Cross-Site Scripting (XSS) - Coming soon
-SQL Injection (SQLI) - Coming soon
-Subdomain Takeover (STO) - Coming soon
-Web Cache Deception (WCD) - Coming soon
-And more to come!
+
+Broken Access Controls (BAC) - Coming soon  
+Client-Side Request Forgery (CSRF) - Coming soon  
+Cross-Site Scripting (XSS) - Coming soon  
+SQL Injection (SQLI) - Coming soon  
+Subdomain Takeover (STO) - Coming soon  
+Web Cache Deception (WCD) - Coming soon  
+And more to come!  
 
 ## Primary Sources for Research
 
 Huge shout out to the following for their knowledge they impart to the security community.
 
-Critical Thinking Bug Bounty Discord - [Join Link](https://discord.gg/QYDyC879cu)
-Critical Thinking Bug Bounty Podcast - [Spotify Link](https://open.spotify.com/show/4GiJnv8f4a4ZR6Jc6TQJ3k?si=ce8a81079e2b48cb)
-[HackTricks.xyz](https://book.hacktricks.wiki/en/index.html)
-[OWASP Top Ten](https://owasp.org/Top10/)
-[OWASP Web Security Testing Guide](https://owasp.org/www-project-web-security-testing-guide/latest/)
-[NahamSec's Blog](https://www.nahamsec.com/posts)
-NahamSec Discord - [Join Link](https://discord.gg/nahamsec-598608711186907146)
-[NahamSec's Youtube](https://www.youtube.com/c/nahamsec)
-[Portswigger - Web Security Academy](https://portswigger.net/web-security/dashboard)
+Critical Thinking Bug Bounty Discord - [Join Link](https://discord.gg/QYDyC879cu)  
+Critical Thinking Bug Bounty Podcast - [Spotify Link](https://open.spotify.com/show/4GiJnv8f4a4ZR6Jc6TQJ3k?si=ce8a81079e2b48cb)  
+[HackTricks.xyz](https://book.hacktricks.wiki/en/index.html)  
+[OWASP Top Ten](https://owasp.org/Top10/)  
+[OWASP Web Security Testing Guide](https://owasp.org/www-project-web-security-testing-guide/latest/)  
+[NahamSec's Blog](https://www.nahamsec.com/posts)  
+NahamSec Discord - [Join Link](https://discord.gg/nahamsec-598608711186907146)  
+[NahamSec's Youtube](https://www.youtube.com/c/nahamsec)  
+[Portswigger - Web Security Academy](https://portswigger.net/web-security/dashboard)  
