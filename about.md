@@ -18,4 +18,4 @@ I am currently developing this blog as a way to test my knowledge and grow withi
 
 ## My Vision
 
-I would ultimately like to be a Bug Bounty Hunter myself.  In order to achieve this, I have a long way to go.  I am excited about the people I will meet on this journey and the ways I'll play my part in securing our world!
+I would ultimately like to be a Bug Bounty Hunter myself, at least in a parttime capacity while I work actively on a security team.  In order to achieve this, I have a long way to go.  The short term mission should hopefully get me oriented in the right direction.  I am excited about the people I will meet on this journey and the ways I'll play my part in securing our world!
