@@ -14,7 +14,7 @@ As of January 2025, I've clocked over a thousand hours on my journey.  I can now
 
 ## My Mission
 
-I am currently developing this blog as a way to test my knowledge and grow within the cyber security world. My hope is to secure a security job, preferably one that situates me between those catching bugs and the engineers that plug up the holes!
+I am currently developing this blog as a way to test my knowledge and grow within the cyber security world. My hope is to land a security job, preferably one that situates me between those catching bugs and the engineers that plug up the holes!
 
 ## My Vision
 
